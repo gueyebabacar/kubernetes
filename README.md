@@ -8,4 +8,7 @@ kubectl create -f rc-definition.yml
 kubectl create -f rcset-definition.yml
 
 # change replicat number 3 to 4
-kubectl scale --replcat=4 -f rcset-definition.yml
+kubectl scale --replicas=4 -f rcset-definition.yml
+
+# delete replicaset 
+kubectl delete replicaset myapp-replicaset
