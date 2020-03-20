@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx-container
-          image: nginx
+          image: nginx:1.12
 
 
   replicas: 6
